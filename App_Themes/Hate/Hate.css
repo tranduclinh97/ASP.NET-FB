@@ -1,0 +1,161 @@
+﻿body{
+    background: #fff;
+    height: 900px;
+    width: 620px;
+}
+body header {
+    background: #66091D;
+    width: 620px;
+    position: absolute;
+    left: 30%;
+
+}
+body .control_Content .control_box .One .icon-text p {
+    display: none;
+}
+body .control_Content .control_box .One ul li a span {
+    display: none;
+}
+body .control_Content .control_box .One, body .control_Content .control_box .One ul li  {
+    width: 100px;
+}
+body .control_Content .control_box .One ul li a img {
+    left: 40px;
+       }
+body .control_Content .control_box .One .control_group_discover {
+    display: none;
+}
+body header .header_control {
+        max-width: 720px;
+      height: 42px;
+    }
+.logo_search {
+    width: 40px;
+}
+body header .header_control .logo_search .search {
+    padding: 0;
+    position: relative;
+    top: -30px;
+    left: 12px;
+}
+
+body header .header_control .logo_search .search input {
+    display: none;
+}
+#DropDownList1 {
+    display: inline-block;
+}
+body .control_Content {
+    position: relative;
+    left: 76.6%;
+}
+body .control_Content .control_box .Two .create_post, body .control_Content .control_box .Two .create_post .title_post {
+    width: 320px;
+}
+body .control_Content .control_box .Two .create_post .post {
+    height: 87px;
+}
+body .control_Content .control_box .Two .create_post .post input {
+        width: 280px;
+        height: 48px;
+        text-align: center;
+}
+body .control_Content .control_box .Two .create_post {
+    height: 120px;
+}
+body .control_Content .control_box .Two .create_post .post ul {
+    left: 20%;
+}
+body .control_Content .control_box .Two .create_post .post ul li a span {
+    display: none;
+}
+body .control_Content .control_box .Two .create_post .post .control_post_img img {
+    display: none;
+}
+body .control_Content .control_box .Three {
+    top: 0;
+}
+body .control_Content .control_box .Three .event .event_one {
+    width: 180px;
+    /*///////*/
+    display: none;
+}
+body .control_Content .control_box .Three .event .event_two {
+    width: 180px;
+    height: 434px;
+    padding: 0;
+}
+body .control_Content .control_box .Three .event .event_two ul li {
+    left: 0;
+}
+body .control_Content .control_box .Three .event .event_two ul li .control_text_two {
+    text-align: center;
+    left: 14%;
+}
+body .control_Content .control_box .Three .event .event_two h1 {
+    text-align: center;
+}
+body .control_Content .control_box .Three .event .event_two ul li img {
+    display: block;
+    margin: 0 auto 10px;
+
+}
+/*body .control_Content .control_box .Three .event .event_one ul li a p {
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}*/
+body header .header_control .logo_search .logo img {
+    top: 10px;
+    left: -30px;
+}
+body .control_Content .control_box .One {
+    height: 460px;
+}
+body .control_Content .control_box .One ul li a span  {
+    color: #fff;
+}
+body .control_Content .control_box .One ul li a span:hover {
+    color: rgb(54, 65, 81);
+}
+#news, .icon-text p {
+    color: rgb(54, 65, 81);
+}
+body .control_Content .control_box .One .control_group_discovery p {
+    text-align: center;
+    margin-left: -95px;
+}
+body .control_Content .control_box .Four {
+    display: none;
+}
+/*////////////page 2/////////////////////////////*/
+.control_Content .control_box_2 .head_bgd_img .profile_bgd_img {
+    width: 620px;
+}
+.control_Content .control_box_2 {
+    width: 686px;
+}
+.control_Content .control_box_2 .bar_profile {
+    width: 620px;
+}
+.control_Content .control_box_2 .bar_profile .left_bar_profile ul li:nth-child(n+4) {
+    display: none;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile {
+    right: -110px;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile {
+    font-size: 0.75rem;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile {
+    height: 300px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about p {
+        font-size: .63rem;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul {
+    margin: 0px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul li p {
+        font-size: .76rem;;
+}

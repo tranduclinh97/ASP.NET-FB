@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+			<div class="header_control">
+				<div class="logo_search">
+					<div class="logo">
+						<div class="heart">
+							<img src="img/facebook.png"/>
+						</div>
+					</div>
+					<div class="search">
+						 <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True">
+						<asp:ListItem>Love</asp:ListItem>
+					<asp:ListItem>Hate</asp:ListItem>
+				</asp:DropDownList> 
+				<input type="text" name="search" placeholder="Tìm kiếm tình yêu mới..."/>
+			</div>
+		</div>
+		<div class="next_pages">
+			<ul>
+				<li><a href="CaNhan.aspx"><img src="img/linhz.jpg"><span>Đức Lĩnh</span></a></li>
+				<li><a href="TrangChu.aspx">Trang chủ</a></li>
+				<li><a href="#">Tìm bạn bè</a></li>
+				<li><a href="#">Tạo</a></li>
+			</ul>
+		</div>
+		<div class="fr_mes_no">
+			<div class="control_img">
+				<img src="img/friends.png" alt="error"/>
+			</div>
+			<div class="control_img">
+				<img src="img/messenger.png" alt="error"/>
+			</div>
+			<div class="control_img">
+				<img src="img/notification.png" alt="error"/>
+			</div>
+		</div>
+	</div>
+</header>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
