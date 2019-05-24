@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="hate">
     <div class="control_Content">
 	<div class="control_box_2">
 		<div class="head_bgd_img">
@@ -87,5 +88,6 @@
 		</div>
 	</div>
 </div>
+        </div>
 </asp:Content>
 
